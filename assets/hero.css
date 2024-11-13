@@ -1,0 +1,6 @@
+.hero{
+    display: flex;
+}
+.hero > div {
+    flex: 1;
+}
