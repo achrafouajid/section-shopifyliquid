@@ -1,14 +1,30 @@
 <style>
   @font-face {
-    font-family: "BlairITCMedium";
-    src: url("{{ 'BlairITCMedium.otf' | asset_url }}") format("opentype");
+    font-family: 'BlairITCMedium';
+    src: url("{{ 'BlairITCMedium.otf' | asset_url }}") format('opentype');
   }
   @font-face {
-    font-family: "NeueHaasDisplayMedium";
-    src: url("{{ 'NeueHaasDisplayMedium.ttf' | asset_url }}") format("opentype");
+    font-family: 'NeueHaasDisplayMedium';
+    src: url("{{ 'NeueHaasDisplayMedium.ttf' | asset_url }}") format('opentype');
+  }
+  .slogan {
+    text-align: center;
+    padding: 60px;
+  }
+  .slogan > h4 {
+    font-family: 'BlairITCMedium', sans-serif;
+    color: #e87e3f;
+    font-size: 14pt;
+    font-weight: 100;
+  }
+  .slogan > h3 {
+    font-family: 'NeueHaasDisplayMedium', sans-serif;
+    color: #white;
+    font-size: 26pt;
+    font-weight: 100;
   }
 </style>
-<div class="">
-  <h4 style="font-family: 'BlairITCMedium', sans-serif;color: #E87E3F">THE H-75 CHRONOGRAPH</h4>
-  <h3 style="font-family: 'NeueHaasDisplayMedium', sans-serif;">Rugged & Field-Tested</h3>
+<div class="slogan">
+  <h4>THE H-75 CHRONOGRAPH</h4>
+  <h3>Rugged & Field-Tested</h3>
 </div>

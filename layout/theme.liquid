@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
+    {{ 'fonts.css' | asset_url | stylesheet_tag }}
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -33,7 +34,10 @@
       *::before,
       *::after {
         box-sizing: inherit;
+        padding: 0px;
+        margin: 0px;
       }
+
       hero {
         display: grid;
         grid-column: 2;

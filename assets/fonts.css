@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "neueHaas";
+    font-weight: 600;
+    src: url("{{ 'fonts/neueHaasDispla/Medium.ttf' | asset_url }}") format("opentype");
+}
+@font-face {
+    font-family: "neueHaas";
+    font-weight: 900,bolder;
+    src: url("{{ 'fonts/neueHaasDispla/Black.ttf' | asset_url }}") format("opentype");
+}
+@font-face {
+    font-family: "neueHaas";
+    font-weight: 700,bold;
+    src: url("{{ 'fonts/neueHaasDispla/Bold.ttf' | asset_url }}") format("opentype");
+}
+@font-face {
+    font-family: "neueHaas";
+    font-weight: 100;
+    src: url("{{ 'fonts/neueHaasDispla/XXThin.ttf' | asset_url }}") format("opentype");
+}
+@font-face {
+    font-family: "neueHaas";
+    font-weight: 200;
+    src: url("{{ 'fonts/neueHaasDispla/XThin.ttf' | asset_url }}") format("opentype");
+}
+@font-face {
+    font-family: "neueHaas";
+    font-weight: 300;
+    src: url("{{ 'fonts/neueHaasDispla/Thin.ttf' | asset_url }}") format("opentype");
+}
+@font-face {
+    font-family: "neueHaas";
+    font-weight: 400;
+    src: url("{{ 'fonts/neueHaasDispla/Ligt.ttf' | asset_url }}") format("opentype");
+}
+@font-face {
+    font-family: "neueHaas";
+    font-weight: 500;
+    src: url("{{ 'fonts/neueHaasDispla/Roman.ttf' | asset_url }}") format("opentype");
+}
+

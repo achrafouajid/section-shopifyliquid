@@ -1,21 +1,31 @@
 .hero{
     display: flex;
+    align-items: center;
+    align-content: center;
 }
 .hero > div {
     flex: 1;
 }
-
-@font-face {
-    font-family: "NeueHaasDisplayMedium";
-    src: url("{{ 'NeueHaasDisplayMedium.ttf' | asset_url }}") format("opentype");
+.hero > .text {
+  padding: 4rem;
 }
 
-@font-face {
-    font-family: "NeueHaasDisplayBlack";
-    src: url("{{ 'NeueHaasDisplayBlack.ttf' | asset_url }}") format("opentype");
+.hero > .text > .headings{
+    font-family: 'neueHaas';
+    font-weight: 100 !important;
+}
+.hero > .text > p{
+    font-family: 'NeueHaasDisplayBlack', sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    margin-top: 16px;
+    max-width: 300px;
+    line-height: 22px;
+    
 }
 
-*{
+
+html{
     background-color: #1D1816;
     color: white;
 }
