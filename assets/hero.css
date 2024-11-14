@@ -4,3 +4,18 @@
 .hero > div {
     flex: 1;
 }
+
+@font-face {
+    font-family: "NeueHaasDisplayMedium";
+    src: url("{{ 'NeueHaasDisplayMedium.ttf' | asset_url }}") format("opentype");
+}
+
+@font-face {
+    font-family: "NeueHaasDisplayBlack";
+    src: url("{{ 'NeueHaasDisplayBlack.ttf' | asset_url }}") format("opentype");
+}
+
+*{
+    background-color: #1D1816;
+    color: white;
+}
