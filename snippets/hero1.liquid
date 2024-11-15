@@ -1,5 +1,15 @@
 {{ 'hero.css' | asset_url | stylesheet_tag }}
 
+<style>
+  @font-face {
+    font-family: 'NeueHaasDisplayMedium';
+    src: url("{{ 'NeueHaasDisplayMedium.ttf' | asset_url }}") format('opentype');
+  }
+  .headings > h4 {
+    font-family: 'NeueHaasDisplayMedium', sans-serif;
+  }
+</style>
+
 <div class="hero">
   <div class="">
     <img
