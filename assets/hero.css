@@ -1,5 +1,31 @@
-
-
+@media screen and (max-width: 768px) {
+    .hero{
+        flex-direction: column;
+    }
+    .hero.mobile-reversable {
+        flex-direction: column-reverse;
+    }
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .hero{
+        flex-direction: row;
+    }
+    .hero.mobile-reversable {
+        flex-direction: row;
+    }
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+}
 
 .hero{
     display: flex;
