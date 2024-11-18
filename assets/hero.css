@@ -19,6 +19,7 @@
 @media screen and (min-width: 768px) {
   .hero {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 101px;
   }
   .desktop {
     display: block;
@@ -27,14 +28,18 @@
     display: none;
   }
   .hero > .text {
-    padding: 2rem;
+    padding: 0 0 0 110px;
   }
-  .hero > .text > p {
-    max-width: 300px;
+  .hero > .t-2 {
+    padding: 0 200 0 55;
   }
+  /*   .hero > .text > p {
+    max-width: 650px;
+  } */
   .headings {
-    font-size: 20pt !important;
-    max-width: 240px;
+    font-size: 60px !important;
+    max-width: 500px;
+    line-height: 60px;
     font-weight: 500;
   }
 }
@@ -48,9 +53,9 @@
 .hero > .text > p {
   font-family: 'NeueHaasDisplayRoman', sans-serif;
   font-weight: 100;
-  margin-top: 16px;
-  line-height: 22px;
-  font-size: 18px;
+  margin-top: 41px;
+  line-height: 60px;
+  font-size: 36px;
   text-rendering: geometricPrecision;
 }
 .headings {
