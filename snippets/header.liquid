@@ -4,23 +4,48 @@
     src: url("{{ 'BlairITCMedium.otf' | asset_url }}") format('opentype');
   }
   @font-face {
-    font-family: 'NeueHaasDisplayMedium';
-    src: url("{{ 'NeueHaasDisplayMedium.ttf' | asset_url }}") format('opentype');
+    font-family: 'NeueHaasDisplayBold';
+    src: url("{{ 'Bold.ttf' | asset_url }}") format('opentype');
+  }
+  @font-face {
+    font-family: 'NeueHaasDisplayRoman';
+    src: url("{{ 'Roman.ttf' | asset_url }}") format('opentype');
+  }
+
+  @media screen and (max-width: 768px) {
+    .slogan{
+      white-space: nowrap;
+      line-height: 40px;
+    }
+    .slogan > h4 {
+      font-size: 16px;
+    }
+    .slogan > h3 {
+      font-size: 30px;
+    }
+
+  }
+  @media screen and (min-width: 768px) {
+    .slogan > h4 {
+      font-size: 16px;
+    }
+    .slogan > h3 {
+      font-size: 30px;
+    }
+
   }
   .slogan {
     text-align: center;
-    padding: 60px;
+    padding: 60px 50px;
   }
   .slogan > h4 {
     font-family: 'BlairITCMedium', sans-serif;
     color: #e87e3f;
-    font-size: 14pt;
     font-weight: 100;
   }
   .slogan > h3 {
-    font-family: 'NeueHaasDisplayMedium', sans-serif;
+    font-family: 'NeueHaasDisplayBold', sans-serif;
     color: white;
-    font-size: 26pt;
     font-weight: 100;
   }
 </style>

@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
   .hero {
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    padding: 3rem;
+    padding: 31px;
   }
   .mobile {
     display: block;
@@ -13,7 +13,7 @@
     padding: 2rem 0rem;
   }
   .headings {
-    font-size: 24pt !important;
+    font-size: 30px !important;
   }
 }
 @media screen and (min-width: 768px) {
@@ -46,15 +46,15 @@
 }
 
 .hero > .text > p {
-  font-family: 'NeueHaasDisplayBlack', sans-serif;
+  font-family: 'NeueHaasDisplayRoman', sans-serif;
   font-weight: 100;
-  font-size: medium;
   margin-top: 16px;
   line-height: 22px;
+  font-size: 18px;
   text-rendering: geometricPrecision;
 }
 .headings {
-  font-family: 'NeueHaasDisplayBlack', sans-serif;
+  font-family: 'NeueHaasDisplayBold', sans-serif;
 }
 
 html {
